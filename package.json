@@ -1,28 +1,28 @@
 {
-  "name": "food-ordering-app-express",
-  "version": "0.0.0",
-  "private": true,
+  "name": "food_ordering_app_express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/chizobavictory/food_ordering_app_express.git",
+  "author": "Chizoba Victory <chizoba.victory1@gmail.com>",
+  "license": "MIT",
   "scripts": {
-    "start": "node ./bin/www",
-    "dev": "nodemon ./bin/www",
-    "compile":"tsc -w"
+    "start": " dist/app.js",
+    "compile": "tsc -w"
   },
   "dependencies": {
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "express": "~4.16.1",
-    "http-errors": "~1.6.3",
-    "jade": "~1.11.0",
-    "morgan": "~1.9.1",
-    "nodemon": "^2.0.20"
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "http-error": "^0.0.6",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.25.5",
+    "sqlite3": "^5.1.2",
+    "typescript": "^4.8.4"
   },
   "devDependencies": {
     "@types/cookie-parser": "^1.4.3",
-    "@types/debug": "^4.1.7",
+    "@types/express": "^4.17.14",
     "@types/http-errors": "^2.0.1",
-    "@types/jade": "^0.0.31",
-    "@types/morgan": "^1.9.3",
-    "@types/node": "^18.11.9",
-    "typescript": "^4.8.4"
+    "@types/morgan": "^1.9.3"
   }
 }
