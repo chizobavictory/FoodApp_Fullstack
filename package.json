@@ -6,7 +6,7 @@
   "author": "Chizoba Victory <chizoba.victory1@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": " dist/app.js",
+    "start": "nodemon dist/app.js",
     "compile": "tsc -w"
   },
   "dependencies": {
