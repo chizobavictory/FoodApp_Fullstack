@@ -1,0 +1,1 @@
+This Project is a simple food App built with typescript, express, mongoDB.
