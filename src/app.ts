@@ -15,7 +15,7 @@ app.use('/users', userRouter)
 
 const port = 3700
 app.listen(port, ()=>{
-  console.log(`Server is running on port:${port}`)
+  console.log(`The Server is running on port:${port}`)
 })
 
 export default app
