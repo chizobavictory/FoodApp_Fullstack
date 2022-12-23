@@ -22,11 +22,10 @@ Create A basic Express application, that makes a CRUD operation (create, read, u
 ### Requirements:
 IMPLEMENT AUTHORIZATION AND AUTHENTICATION: PROTECT ALL ROUTES. ONLY THE LOGGED-IN USERS CAN PERFORM THE FOLLOWING OPERATIONS
 
-- You can browse through listings.
-- You can create hotel listings
-- You can edit a hotel listing.
-- You can delete a hotel listing.
-- How will I complete this project?
+- You can browse through food listings.
+- You can create food listings
+- You can edit a food listing.
+- You can delete a food listing.
 
 ### Your aplication should be able to perform:
 - GET Request which returns all the data in your database
